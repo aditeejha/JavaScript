@@ -9,6 +9,13 @@
 //     }
 //     //console.log(age); won't work here
 //     solve();
-var x=10;
-var x=20;
-console.log(x);
+// var x=10;
+// var x=20;
+// console.log(x);
+
+function changeText(){
+    let fpara=document.getElementById('firstpara');
+fpara.textContent="Hello Aditee";
+}
+let fpara=document.getElementById('firstpara');
+fpara.addEventListener('click',changeText);
