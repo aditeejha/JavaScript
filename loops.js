@@ -16,3 +16,5 @@ do{
     console.log("Do-While Loop iteration:", k);
     k++;
 }
+
+//do while run at least once
