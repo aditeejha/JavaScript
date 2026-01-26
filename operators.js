@@ -24,3 +24,15 @@ if(c!=d){ // loose not equal operator - checks value only
     console.log("c and d are not equal");
 }
 console.log(d>c);
+
+//ternary operator - condition ? expr1(true) : expr2(false)
+let age=20;
+let canVote = (age>=18) ? "Yes, can vote" : "No, cannot vote";
+console.log(canVote);
+
+//Logical operators- used to merge multiple conditions or statements
+// && (AND), || (OR), ! (NOT)
+let marks=85;
+if(marks>75 && age>=18){
+    console.log("Eligible for scholarship");
+}
