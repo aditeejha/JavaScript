@@ -25,5 +25,15 @@ window.console.log("Adi");//Window ke hi andar sare global objects aate
 //in response single/multiple o/p le sakte
 
 //Do In Browser Window
+document.getElementById("fpara");
+//output me single element lake de deta jiski id match kar jati hai
+
+document.getElementsByClassName('textMatter');
+//returns multiple element of same class name
+
+document.getElementsByTagName('p');
+//gives multiple elements of the same tag mentioned
+
+
 
 
