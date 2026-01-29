@@ -26,3 +26,4 @@ window.console.log("Adi");//Window ke hi andar sare global objects aate
 
 //Do In Browser Window
 
+
