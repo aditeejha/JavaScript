@@ -33,3 +33,11 @@ firstElement.setAttribute('style', 'padding: 0.1rem');
 //jab yahan aapne style change ki to puri ki [puri style hat gai pehle ki aur bas ye padding reh gai
 //.setAttribute() puri ki puri value jad se hata deta hai aur nai value set kardeta hai
 
+
+//.className-> class ke name ko get karwa deta
+//khud se single ya mulriple class insert karna chahte to wo kardeta
+
+fpara.className //get
+
+fpara.className="Gohan, Bulbul" //add hogai class
+//aur pehle se present to overwite/update hojata
