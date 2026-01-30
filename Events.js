@@ -12,3 +12,12 @@ unmonitorEvents(document);
 //Event Listener: click hone ke baad ye kya action perform karega, wo action hamne ek location pe likha hota hai
 //that location is event listener
 //Event Listener: we define event target pe ye event aaye to kya action perform karna hai
+
+//addEvenetListener()
+//syntax
+//<event_target>.addEventListener(<event_type>,<function->action>)
+
+
+
+
+//removeEventListener()
