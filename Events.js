@@ -19,14 +19,13 @@ unmonitorEvents(document);
 
 function changeText(){
     let fpara=document.getElementById('fpara');
-fpara.textContent="hello Aditee";
+fpara.textContent="Hello Aditee";
 }
 
 let fpara=document.getElementById('fpara');
 fpara.addEventListener('click', changeText); //click karne pe para ka text content change
-
-
-
-
+//changeText ke jagah direct pura function bhi likh sakte
 
 //removeEventListener()
+fpara.removeEventListener('click', changeText);
+//add ke andar jo passs kia tha remove me exactly wahi same function hona chahiye, warna remove nahi ho paega kyunki do different objects ho jaenge
