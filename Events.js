@@ -17,6 +17,15 @@ unmonitorEvents(document);
 //syntax
 //<event_target>.addEventListener(<event_type>,<function->action>)
 
+function changeText(){
+    let fpara=document.getElementById('fpara');
+fpara.textContent="hello Aditee";
+}
+
+let fpara=document.getElementById('fpara');
+fpara.addEventListener('click', changeText); //click karne pe para ka text content change
+
+
 
 
 
