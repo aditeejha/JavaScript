@@ -39,5 +39,18 @@ firstElement.setAttribute('style', 'padding: 0.1rem');
 
 fpara.className //get
 
-fpara.className="Gohan, Bulbul" //add hogai class
+fpara.className="Gohan Bulbul" //add hogai class
 //aur pehle se present to overwite/update hojata
+
+
+//.classList -> get multiple classes in format of array
+//koi bhi class add/remove/toggle(added ko remove n vice versa)/contains
+
+letfpara=document.querySelector('#fpara');
+fpara.classList//fetch classes in form of array present in an element
+
+fpara.classList.add('thirdClass')//adds new class
+fpara.classList.remove('goku')//remove a class
+fpara.classList.toggle('vegeta')//present thi to toggle wale case me hata dia gaya
+fpara.classList.toggle('vegeta')//present nhi to add kardi gai
+fpara.classList.contains('vegeta')//checks if class is present or not -> true/false value
