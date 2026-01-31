@@ -54,6 +54,18 @@ fpara.removeEventListener('click', changeText);
 //capture phase me pass karne ke liye ek value hoti hai jo true pass karni hoti hai
 //useCapture ki value true
 
-
-
 //addEventListener() MDN
+
+//EVENT OBJECT->  
+//jab bhi koi event trigger hoga, to wo event trigger hone ke bas sabse pehle as en event
+//addEventListener ke pass jata as a parameter, to ham uska use karke event ke bare me pata kar sakte
+//redo
+
+//DEFAULT ACTION-> har tag ka ek default action hota, but we can change
+let anchorElement=document.getElementById('fanchor');
+anchorElement.addEventListener('click', function(event){
+    event.preventDefault();
+    anchorEelement.textContent="Click done bhai";
+});
+
+//Avoiding too many listeners
