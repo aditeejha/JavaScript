@@ -29,3 +29,31 @@ fpara.addEventListener('click', changeText); //click karne pe para ka text conte
 //removeEventListener()
 fpara.removeEventListener('click', changeText);
 //add ke andar jo passs kia tha remove me exactly wahi same function hona chahiye, warna remove nahi ho paega kyunki do different objects ho jaenge
+
+
+//Phases of an event
+<div>            
+    <article>
+        <h1></h1>
+        <p></p>
+    </article>
+</div>
+
+//DOM tree: div
+//           |
+//        article
+//           /\
+//          h1 p
+//click karne pe div ke pass aaya then article pe then p pe
+//this is capturing phase-> event target pe pohoncha jata hai
+//at Target phase- jab target pe aagaye
+//p se wapis article pe wapis div pe jana
+//called Bubling phase-> target element se root element tak jana
+
+//addEventListener()-> by default applied in bubbling phase
+//capture phase me pass karne ke liye ek value hoti hai jo true pass karni hoti hai
+//useCapture ki value true
+
+
+
+//addEventListener() MDN
