@@ -34,5 +34,7 @@ console.log("end"); //ye upar wali line execute hone ke baad run karega, waits t
 //loupe by philip roberts to understand
 
 //call stack me queue se event loop ke through jata, when call stack is empty
+//synchronus code execute ho jaye tab async code execute karta js(single threaded language) to avoid blocking
 
+//avoid concurrency in single threaded language by eventLoop
 
