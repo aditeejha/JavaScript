@@ -75,5 +75,5 @@ Promise.all([pr1,pr2,pr3]).then((values)=>{  //naya promise create hogaya jo tab
       console.log(value);
 })
 .catch((error)=>{
-    console.log(error);
+    console.log("error:"+error);
 })
