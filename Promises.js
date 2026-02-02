@@ -24,5 +24,22 @@ let secondPromise=new Promise((resolve, reject)=>{
 },10000);
 resolve(1);
 });
+//async code runs in background parallel to sync process
+
+//Promise: fulfilled hone ke bad koi task perform karna chahta
+//then() ka use karke kar sakte
+
+//ya promise fail/reject hone pe mai chahta ki ham error kya hai pakad paye
+//use catch() function
+
+let promise1=new Promise((resolve,reject)=>{
+    let success=true;
+    if(success){
+        resolve("Promise Fulfilled");
+    }
+    else{
+        reject("Promise Rejected");
+    }
+});
 
 
