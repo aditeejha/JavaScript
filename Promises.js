@@ -41,5 +41,10 @@ let promise1=new Promise((resolve,reject)=>{
         reject("Promise Rejected");
     }
 });
+promise1.then((message)=>{
+    console.log("This ka message is"+ message);
+}).catch((error)=>{
+    console.log("Error:"+error);
+})
 
 
