@@ -56,4 +56,24 @@ promise1.then((message)=>{
 //Chaining Promises-> done above
 //finally block-> hamesha run hoga, regardless promise reject hua ya resolve
 
+let pr1=new Promise((resolve, reject)=>{
+    setTimeout(resolve,1000,"First");
+})
 
+let pr2=new Promise((resolve, reject)=>{
+    setTimeout(resolve,1000,"Second");
+})
+
+let pr3=new Promise((resolve, reject)=>{
+    setTimeout(resolve,1000,"Third");
+})
+
+//jab bhi multiple promises jo concurrently execute ho rahe unhe run karna hai, use
+//promise.all
+
+Promise.all([pr1,pr2,pr3]).then((values)=>{  //naya promise create hogaya jo tab resolve hoga jab teeno promise resolve ho chuke honge unske andar ka
+      console.log(value);
+})
+.catch((error)=>{
+    console.log(error);
+})
