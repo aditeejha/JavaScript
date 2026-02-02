@@ -22,6 +22,7 @@ let secondPromise=new Promise((resolve, reject)=>{
     setTimeout(function SayMyName(){
     console.log("my name is Aditee");
 },10000);
-})
+resolve(1);
+});
 
 
