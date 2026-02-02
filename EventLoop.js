@@ -33,5 +33,6 @@ console.log("end"); //ye upar wali line execute hone ke baad run karega, waits t
 
 //loupe by philip roberts to understand
 
+//call stack me queue se event loop ke through jata, when call stack is empty
 
 
