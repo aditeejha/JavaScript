@@ -43,6 +43,9 @@ let promise1=new Promise((resolve,reject)=>{
 });
 promise1.then((message)=>{
     console.log("This ka message is"+ message);
+    return"promise fulfilled second message";
+}).then((message)=>{
+    console.log("second msg:"+message);
 }).catch((error)=>{
     console.log("Error:"+error);
 })
