@@ -11,5 +11,7 @@ function sayMyName(){
     console.log("Aditee");
 }
 setTimeout(sayMyName,5000);
+//no gurantee ki 5 sec baad hi print ho
+//zada time bhi lag sakta
 
 
