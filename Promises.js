@@ -48,6 +48,12 @@ promise1.then((message)=>{
     console.log("second msg:"+message);
 }).catch((error)=>{
     console.log("Error:"+error);
+    console.error(error);
+}).finally((message)=>{
+    console.log("Mai to final hoon, palla chalunga");
 })
+
+//Chaining Promises-> done above
+//finally block-> hamesha run hoga, regardless promise reject hua ya resolve
 
 
