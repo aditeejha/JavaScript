@@ -69,3 +69,10 @@ anchorElement.addEventListener('click', function(event){
 });
 
 //Avoiding too many listeners
+event.target.textContent;
+if(event.target.nodeName='SPAN'){
+    alert
+}
+
+
+//How to use DOMContentLoaded to add script dynamically
