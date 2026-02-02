@@ -14,4 +14,12 @@ setTimeout(sayMyName,5000);
 //no gurantee ki 5 sec baad hi print ho
 //zada time bhi lag sakta
 
+//Blocking
+console.log("start");
+setTimeout(sayMyName,5000);
+console.log("end"); //ye upar wali line execute hone ke baad run karega, waits till then
+
+
+
+
 
