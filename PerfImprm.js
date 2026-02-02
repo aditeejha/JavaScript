@@ -28,3 +28,39 @@ for(let i=1; i<=100; i++){
 }
 document.body.appendChild(mydiv);
 
+//code 2 is faster
+
+
+//Reflow
+//process of calculating a position of an element that u want to render on page
+//computationally intensive task
+//slower
+
+
+//Repaint
+//process of displaying content/element pixel by pixel on UI(document)
+//faster than reflow
+
+
+//code me jitne reflow aur repaint kam, utna fast process
+//code 1: each time we had to do reflow and repaint
+//100 reflow and 100 repaint
+
+//code 2: 
+//div me para append karne ke liye no repaint
+//document me div append then reflow and repaint
+
+//Document Fragment: light weight document object
+//iske andar addition karte kisi element ka to na ye reflow karta na repaint leta bas jab ise document me add karte tab 1 1
+//document.body.append me 1 reflow and 1 repaint
+
+//best code
+let fragment= document.createDocumentFragment();
+for(let i=1; i<=100; i++){
+    let para=document.createElement('p');
+    para.textContent="This is para"+i;
+    //No reflow and No repaint for the below line
+    fragment.appendChild(para);
+}
+//Takes 1 reflow and 1 repaint
+document.body.appendChild(fragment);
