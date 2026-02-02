@@ -77,3 +77,5 @@ Promise.all([pr1,pr2,pr3]).then((values)=>{  //naya promise create hogaya jo tab
 .catch((error)=>{
     console.log("error:"+error);
 })
+
+//agar setTimeout me 0 set karde time to process sync ho jata ya async hi rehta
