@@ -1,0 +1,27 @@
+//Promise
+//koi bhi async code hai, wo kya value return kar raha, ya uski state kya hai, to wo sab kaam Promise naam ka object kar raha hota
+//3 states:
+//pending, fulfilled and rejected
+
+//returns a value promise ke madhyam se jab tak async code pura run nahi hua
+
+//Promise is an object
+//2 states: Resolved/fulfilled and Reject
+//async code ko try to write in promise
+
+//new Promise((resolve, reject)=> function)
+
+let firstPromise=new Promise((resolve, reject)=>{
+    console.log("Hi"); //sync. code runs on the spot
+    resolve(1001);// kuch ni kia then status is pending
+    //reject(new Error("Internal server error"));
+});
+
+
+let secondPromise=new Promise((resolve, reject)=>{
+    setTimeout(function SayMyName(){
+    console.log("my name is Aditee");
+},10000);
+})
+
+
