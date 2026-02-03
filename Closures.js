@@ -31,3 +31,5 @@ inner();
 //inner function me still name print ho raha
 //kyunki innerFunction apne data ke sath bind hogaya hai
 //copy ya naya variable nahi bana hai, bas reference aa gaya hai us variable ka
+//nested function ko uski reqd value ke sath bind ho jata
+//naya variable ya copy nahi banti, bas variable ka reference pass hota hai
