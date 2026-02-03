@@ -13,3 +13,5 @@ getData();// data aaye bina execute aa jaega to o/p aa nahi paega aise direct ca
 //process data-> sync
 
 //jab tak data network call se na aaye, tab tak use process na karun-> use await to stop flow of execution at that 
+
+//url, options-> to fetch API

@@ -16,3 +16,6 @@ getData();
 
 //async await ka use mai tabhi karungi jab mujhe promises ka use karna hai
 //async function hamesha ek promise return kar raha hota hai
+
+//await sirf async function ke liye use kar sakte
+//to pehle async function mark karna padta
