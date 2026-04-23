@@ -6,7 +6,7 @@
 //returns a value promise ke madhyam se jab tak async code pura run nahi hua
 
 //Promise is an object
-//2 states: Resolved/fulfilled and Reject
+//3 states:Pending, Resolved/fulfilled and Reject
 //async code ko try to write in promise
 
 //new Promise((resolve, reject)=> function)
