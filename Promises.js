@@ -29,7 +29,7 @@ resolve(1);
 //Promise: fulfilled hone ke bad koi task perform karna chahta
 //then() ka use karke kar sakte
 
-//ya promise fail/reject hone pe mai chahta ki ham error kya hai pakad paye
+//ya promise fail/reject hone pe mai chahti ki ham error kya hai pakad paye
 //use catch() function
 
 let promise1=new Promise((resolve,reject)=>{
